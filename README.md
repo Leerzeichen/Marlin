@@ -29,6 +29,9 @@ More features have been added by:
  - Erik van der Zalm [@ErikZalm]
  - David Braam [@daid]
  - Bernhard Kubicek [@bkubicek]
+ - Richard Wackerbarth [@Wackerbarth] - English
+ - Roxanne Neufeld [@Roxy-3DPrintBoard] - English
+ - Alberto Cotronei [@MagoKimbra]
  - Lampmaker,
  - Bradley Feldman,
  - and others...
