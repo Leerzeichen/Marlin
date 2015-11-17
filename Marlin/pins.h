@@ -791,8 +791,9 @@
         #define SDCARDDETECT 49
       #else
         //arduino pin which triggers an piezzo beeper
-        #define BEEPER 33  // Beeper on AUX-4
-
+//        #define BEEPER 33  // Beeper on AUX-4
+        #define BEEPER -1  // Beeper on AUX-4
+      
         //buttons are directly attached using AUX-2
         #ifdef REPRAPWORLD_KEYPAD
           #define BTN_EN1 64 // encoder

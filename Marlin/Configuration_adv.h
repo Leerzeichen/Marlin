@@ -68,7 +68,7 @@
 // When first starting the main fan, run it at full speed for the
 // given number of milliseconds.  This gets the fan spinning reliably
 // before setting a PWM value. (Does not work with software PWM for fan on Sanguinololu)
-//#define FAN_KICKSTART_TIME 100
+#define FAN_KICKSTART_TIME 200
 
 // Extruder cooling fans
 // Configure fan pin outputs to automatically turn on/off when the associated
@@ -216,7 +216,7 @@
 #define X_HOME_RETRACT_MM 5
 #define Y_HOME_RETRACT_MM 5
 #define Z_HOME_RETRACT_MM 2
-//#define QUICK_HOME  //if this is defined, if both x and y are to be homed, a diagonal move will be performed initially.
+#define QUICK_HOME  //if this is defined, if both x and y are to be homed, a diagonal move will be performed initially.
 
 #define AXIS_RELATIVE_MODES {false, false, false, false}
 #ifdef CONFIG_STEPPERS_TOSHIBA
